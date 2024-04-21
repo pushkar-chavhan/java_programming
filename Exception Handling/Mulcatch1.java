@@ -8,11 +8,11 @@ public class Mulcatch1 {
         catch(ArrayIndexOutOfBoundsException a){
             System.out.println(a);
         }
-        // catch(ArithmeticException w){
-        //     System.out.println(w);
-        // }
-        // catch(Exception e){
-        //     System.out.println(e);
-        // }
+        catch(ArithmeticException w){
+            System.out.println(w);
+        }
+        catch(Exception e){
+            System.out.println(e);
+        }
     }
 }

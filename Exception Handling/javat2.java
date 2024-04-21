@@ -35,9 +35,9 @@ class NestedTryBlock2 {
             System.out.print(e4);  
             System.out.println(" outer (main) try block");  
         }  
-        // catch (Exception e5) {  
-        //     System.out.print("Exception");  
-        //     System.out.println(" handled in main try-block");  
-        // }  
+        catch (Exception e5) {  
+            System.out.print("Exception");  
+            System.out.println(" handled in main try-block");  
+        }  
     }  
 }  

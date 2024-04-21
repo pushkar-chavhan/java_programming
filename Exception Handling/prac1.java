@@ -6,9 +6,12 @@ public class prac1 {
         try{
             c=i/j;
         }
-        catch(Exception e){
+        catch(ArithmeticException e){
             int d=i/j;
             System.out.println(e);
+        }
+        catch(Exception s){
+            System.out.println(s);
         }
         
     }

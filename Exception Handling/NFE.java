@@ -2,7 +2,7 @@
 
 class NFE {
     public static void main(String[] args) {
-        String s ="123";
+        String s ="push";
         try{
             int a=Integer.parseInt(s);
             System.out.println(a);
