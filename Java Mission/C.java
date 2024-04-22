@@ -8,7 +8,7 @@ interface A{
     int v=20;
 }
 abstract class B implements A{
-     public int d=10;
+     int d=10;
     public void webdev(){
         System.out.println("Hello baccho");
     }

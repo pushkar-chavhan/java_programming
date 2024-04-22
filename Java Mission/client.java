@@ -1,7 +1,8 @@
 //---------------------------------------------------------------Interface Variable-------------------------------------------------------------------------------------
 public interface client {
-    int amt=10;
-    void purchase();
+
+    int amt=10;//static+final+publid
+    void purchase();//public+abstarct
 }
 class cus implements client{
      public void purchase(){
